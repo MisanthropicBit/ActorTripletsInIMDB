@@ -283,12 +283,12 @@ public class FrequentMiner {
 		} else {
 			k = 3;
 		}
-		if(args.length > 0) {
+		if(args.length > 1) {
 			s = Integer.valueOf(args[1]);
 		} else {
 			s = 4000000;
 		}
-		if(args.length > 0) {
+		if(args.length > 2) {
 			filename = args[2];
 		} else {
 			filename = "imdb_stream.txt";

@@ -10,7 +10,6 @@ public class ActorTriplet_Naive {
 	private static Map<Triplet, Integer> storage;
 	private static Triplet mostFrequentTriplet = null;
 	private static int n, frequency;
-	private static String filename = "src/imdb_stream.txt";
 	
 	public static void main(String[] args) {
 		initializeValues(args);

@@ -187,7 +187,7 @@ public class ActorTriplet_MisraGries {
 		} else {
 			s = 4000000;
 		}
-		if(args.length > 0) {
+		if(args.length > 1) {
 			filename = args[1];
 		} else {
 			filename = "imdb_stream.txt";
