@@ -20,5 +20,3 @@ Due to high memory-load, apply -Xmx{}m command:
 Avaliable input files;
 imdb_stream.txt - main dataset, used in the paper.
 imdb_stream_small.txt - smaller set, limited to the first 7000 movies.
-
-
